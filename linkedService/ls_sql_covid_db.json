@@ -1,0 +1,12 @@
+{
+	"name": "ls_sql_covid_db",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=fcovidserver.database.windows.net;initial catalog=fSQLdatabase;user id=adminsql",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEYzRjQyMDAxLUFBNDItNDVFNC05Qjc3LThBMjY5Qjk4MjYxQl8wYTA4YzMxYS05Nzg1LTQ1YzUtODQ5Ni1iMWY2ZWQwYTZmZjYiDQp9"
+		}
+	}
+}
