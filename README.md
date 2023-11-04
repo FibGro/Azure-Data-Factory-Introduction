@@ -1,4 +1,4 @@
-# Azure_Data_Factory_Covid
+# Introduction to Azure Data Factory 
 
 Practise with Azure Data Factory for Covid Database. 
 - Ingest dataset (death cases and hospital admission) from http:// and also from Azure Blob Storage to Azure Data Lake Gen2 by using Azure Data Factory (pipelines) 
